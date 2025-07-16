@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'UTM Avo Bold';
+    src: url(UTM AvoBold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'UTM Avo';
+    src: url(UTM Avo.ttf) format('truetype');
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 0 20px;
+}
+li {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+a {
+    font-size: 20px;
+    font-family: 'UTM Avo', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+.mainpic {
+    width: 900px;
+    height: auto;
+    display: block;
+    margin: 0 auto
+}
